@@ -1,0 +1,9 @@
+# Vercel @vercel/python builder reads requirements.txt for the lambda bundle.
+# The google-ads SDK and its transitive deps come from this repository's
+# pyproject.toml (installed automatically because pyproject.toml is at the
+# project root). Below are the additional MCP/FastAPI dependencies that the
+# main_vercel branch needs on top of the upstream library.
+mcp>=1.24.0
+fastapi>=0.115.0
+uvicorn>=0.34.0
+httpx>=0.28.1
