@@ -1,0 +1,8 @@
+# Vercel @vercel/python builder reads this file for the api/mcp.py Lambda.
+# Root の pyproject.toml が優先されると fastapi 等が入らないため、
+# このファイルで明示的に依存を固定する。
+google-ads>=24.0.0
+mcp>=1.24.0
+fastapi>=0.115.0
+uvicorn>=0.34.0
+httpx>=0.28.1
