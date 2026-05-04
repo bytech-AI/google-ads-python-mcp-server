@@ -3,6 +3,14 @@
 *.iml
 .python-version
 
+# Local secrets / env
+.env
+.env.*
+!.env.example
+google-ads.yaml
+動作確認手順.md
+.vercel
+
 # Distribution / packaging
 .Python
 build/
@@ -36,3 +44,8 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# スクリプト実行ログ
+scripts/*.md
+
+google_ads_token.json

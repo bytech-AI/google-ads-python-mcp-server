@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+google-ads.yaml
+動作確認手順.md
+tests/
+examples/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+scripts/*.md
